@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Editar</title>
+    <script src="https://cdn.tailwindcss.com "></script>
+    
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+	
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400&display=swap" rel="stylesheet">
+
+</head>
+<body class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
+
+    <style>
+        .work-sans {
+            font-family: 'Work Sans', sans-serif;
+        }
+        
+    </style>
+       <div class="order-1 md:order-2">
+        <a class="flex mx-auto mt-12 w-32 tracking-wide no-underline hover:no-underline font-bold text-[#eb9ac0] text-3xl " href="#">
+            COQUETTE
+        </a>
+    </div>
+        <div class="w-full mt-6 max-w-xs mx-auto">
+            <img src="{{producto.url_image}}" alt="">
+            <form action="/producto/editar/{{ producto.id }}" method="POST" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="nombre">Nombre</label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="nombre" name="nombre" type="text" placeholder="Nombre del Producto">
+                </div>
+                
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="precio">Precio</label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="precio" name="precio" type="text" placeholder="Precio del Producto">
+                </div>
+                <div class="flex items-center justify-between">
+                    <button class="mx-auto bg-[#eb9ac0] hover:bg-[#f74780] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+                        Guardar Cambios
+                    </button>
+                </div>
+            </form>
+        </div>
+
+</body>
+</html>
