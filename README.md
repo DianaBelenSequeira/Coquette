@@ -2,7 +2,7 @@
 
 ## DESCRIPCION DEL PROYECTO
 
-Este proyecto se basa en una tienda online, Coquette Shop, es una aplicación web diseñada para permitir a los administradores gestionar su inventario de productos de manera eficiente y sencilla. A traves de la interfaz el administrador puede visualizar la vista de la pagina web de sus clientes mas funcionalidades en el que tiene la posibilidad de editar, crear y eliminar sus productos, asi actualizando su inventario a traves de formularios creados para cada  Carousel de Productos. Desarrollado con Python, utiliza Flask como framework, SQLAlchemy para la gestión de la base de datos, y HTML con Tailwind CSS para el diseño estéticamente adaptable en dispositivos de diferentes tamaños..
+Este proyecto se basa en una tienda online, Coquette Shop, es una aplicación web diseñada para permitir a los administradores gestionar su inventario de productos de manera eficiente y sencilla. A traves de la interfaz el administrador puede visualizar la vista de la pagina web de sus clientes mas funcionalidades en el que tiene la posibilidad de editar, crear y eliminar sus productos, asi actualizando su inventario a traves de formularios creados para cada productos. Desarrollado con Python, utiliza Flask como framework, SQLAlchemy para la gestión de la base de datos, y HTML con Tailwind CSS para el diseño estéticamente adaptable en dispositivos de diferentes tamaños..
 
 
 ## ENFOQUE Y METODOLOGIA 
