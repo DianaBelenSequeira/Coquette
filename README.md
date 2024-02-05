@@ -1,1 +1,2 @@
 # Coquette-Online-Store
+# Coquette
