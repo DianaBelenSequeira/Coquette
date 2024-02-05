@@ -11,7 +11,7 @@ Esta interfaz fue diseñada de manera que se pueda captar la esencia de la marca
 
 ### Planificación
 
-Se inició esta fase para definir los requisitos del proyecto, priorizar las funcionalidades y planificar las vistas.
+Se inició esta fase para definir los requisitos del proyecto, estructurarlos, priorizar las funcionalidades y planificar las vistas y sus conexiones.
 
 ### Desarrollo
 
